@@ -14,7 +14,7 @@ COPY . /app
 RUN pip install numpy
 
 RUN pip install --upgrade pip &&\ 
-    pip install --no-use-pep517 -r  requirements.txt
+    pip install -r  requirements.txt
 
 
 ## Step 4:
